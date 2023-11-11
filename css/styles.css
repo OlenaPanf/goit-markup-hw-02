@@ -11,6 +11,7 @@ button {cursor: pointer;
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
     background-color: #FFFFFF;
 }
 
@@ -66,11 +67,48 @@ body {
 
 
 
-/* section 2 */
+/* section 2 and 3 amd 4 */
+.advantage-title,
+.team-title,
+.portfolio-title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+        text-align: center;
+    }
+    
+    .text-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+    
+    .text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
 
 
+/* section 3  */
 
-/* section 3 */
+.team-menu .text-title,
+.team-menu .text {
+        text-align: center;
+}
 
 
 /* section 4 */
+
+
+/* footer */
