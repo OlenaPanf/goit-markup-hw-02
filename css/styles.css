@@ -25,7 +25,7 @@ body {
         color: #4D5AE5;
 }
 
-.second-word {
+.studio-black {
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -63,7 +63,22 @@ body {
     color: #404BBF;
 }
 
-/* section 1 */
+/* section 1 and footer*/
+.first-section,
+.page-footer {
+        background-color: #2E2F42;
+}
+
+.main-title {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        /* 107.143% */
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+}
+
 
 
 
@@ -101,7 +116,9 @@ body {
 
 
 /* section 3  */
-
+.third-section {
+       background-color: #F4F4FD;
+}
 .team-menu .text-title,
 .team-menu .text {
         text-align: center;
@@ -112,3 +129,16 @@ body {
 
 
 /* footer */
+.studio-white {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.page-footer .text {
+    color: #F4F4FD;
+}
